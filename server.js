@@ -15,10 +15,10 @@ app.use(express.static('public'));
 app.use(routes);
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/workout',
+    process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
     {
         useNewUrlParser: true,
-        useUnitedTopology: true,
+        useUnifiedTopology: true,
         useCreateIndex: true,
         useFindAndModify: false
     }

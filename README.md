@@ -36,7 +36,7 @@ For this homework the following was used:
 ![image](https://user-images.githubusercontent.com/82196946/135805977-4ada0bfc-f60d-4342-91ef-8b3cc82f90bb.png)
 
 ## Deployed Application
-Link to deployed app on Heroku: 
+Link to deployed app on Heroku: https://git.heroku.com/rocky-sands-44055.git
 ## License
 
 MIT License
