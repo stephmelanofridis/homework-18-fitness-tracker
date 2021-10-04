@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const db = require('../models');
 
-mongoose.connect('mongodb://localhost/workout', {
+mongoose.connect('https://rocky-sands-44055.herokuapp.com/', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
