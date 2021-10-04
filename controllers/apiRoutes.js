@@ -45,9 +45,12 @@ router.get("/workouts/range", async (req, res) => {
             $addFields: {
                 totalDuration: { $sum: "$exercises.duration" }
             }
-        }]).skip(await db.Workout.count() - 7);
+        }])
+            .skip(await db.Workout.count() - 7)
+        console.log(workoutData)
         res.status(200).json(workoutData);
     } catch (err) {
+        console.log(err);
         res.status(400).json(err);
     };
 });
